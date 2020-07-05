@@ -1,0 +1,9 @@
+div {
+    color: #ddd;
+    .cont{
+        position: relative;
+    }
+    &::after{
+        content: '';
+    }
+}
